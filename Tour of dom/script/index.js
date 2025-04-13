@@ -7,4 +7,16 @@ for(let li of liCollection){
 }
 let placeTitle = document.getElementById('place-title');
 let placeChange = placeTitle.innerText
-console.log(placeChange)
+// console.log(placeChange);
+
+
+// query selector
+let places = document.querySelectorAll('.place li');
+for( let place of places){
+    let name = place.innerText;
+    console.log(name);
+
+}
+
+let place = document.querySelector('.place li');
+console.log(place)
