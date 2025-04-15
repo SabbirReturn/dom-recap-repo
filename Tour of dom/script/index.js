@@ -14,9 +14,32 @@ let placeChange = placeTitle.innerText
 let places = document.querySelectorAll('.place li');
 for( let place of places){
     let name = place.innerText;
-    console.log(name);
+    // console.log(name);
 
 }
 
 let place = document.querySelector('.place li');
-console.log(place)
+// console.log(place)
+
+let liCollections = document.getElementsByTagName('li');
+for( let liCollection of liCollections){
+    // console.log(liCollection.innerText);
+}
+
+// let title = document.getElementById('place-title')
+// let list = title.classList;
+// console.log(list);
+// title.classList.add('sabbir');
+
+let title = document.getElementById('place-title')
+let classlist = title.classList;
+// console.log(classlist);
+
+title.style.backgroundColor = 'yellow';
+title.style.textAlign = 'center';
+
+let change = document.getElementsByClassName('place')[0];
+change.innerHTML = '<h1> Hello </h1>'
+
+
+
