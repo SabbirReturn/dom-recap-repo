@@ -20,6 +20,7 @@ ul.appendChild(li1);
 ul.appendChild(li3);
 mainContainer.appendChild(section);
 
+
 let section1 = document.createElement('section');
 section1.innerHTML = `
     <h1> Favorite Dress</h1>
@@ -29,3 +30,9 @@ section1.innerHTML = `
 `
 
 mainContainer.appendChild(section1)
+
+
+let mainContainerStyle = document.querySelectorAll('#main-container h1');
+for(let mainContainer of mainContainerStyle){
+    mainContainer.classList.add('text-align');
+}

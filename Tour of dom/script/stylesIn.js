@@ -10,3 +10,4 @@ for(let section of sections){
 let placeList = document.getElementById('place');
 // placeList.classList.add('bg-blue');
 placeList.classList.add('bg-blue');
+
