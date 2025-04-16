@@ -54,4 +54,19 @@ let placeList = document.getElementById('place');
 // placeList.classList.add('bg-blue');
 placeList.classList.add('bg-blue');
 
+let li = document.createElement('li');
+li.innerText = 'Dhaka';
+let placeUl = document.querySelector('#place ul');
+placeUl.appendChild(li);
+
+let li2 = document.createElement('li');
+li2.innerText = 'Horipur';
+let placesUl = document.getElementById('places')
+placesUl.appendChild(li2)
+
+// let location = placeUl.parentNode;
+// console.log(location);
+
+
+
 
