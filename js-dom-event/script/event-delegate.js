@@ -16,3 +16,16 @@ document.getElementById('addBtn').addEventListener('click', function(){
     li.classList.add('item')
     listContainer.appendChild(li);
 })
+
+// document.getElementById('Btn').addEventListener('click', function(event){
+//     let firstBtn = event.target.innerText;
+//     console.log(firstBtn);
+// })
+
+let seats = document.getElementsByClassName('Btn');
+for(let seat of seats){
+    seat.addEventListener('click', function(event){
+        let btn = event.target.innerText;
+        
+    })
+}
