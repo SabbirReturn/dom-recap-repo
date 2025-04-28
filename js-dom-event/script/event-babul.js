@@ -19,7 +19,7 @@ document.getElementById('item-2').addEventListener('click', function(event){
     
 })
 
-document.getElementById('Ullist').addEventListener('click', function(event){
+document.getElementById('Ul-list').addEventListener('click', function(event){
     console.log('Ul clicked')
     
 })
