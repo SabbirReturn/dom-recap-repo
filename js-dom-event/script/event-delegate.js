@@ -80,3 +80,29 @@ document.getElementById('addBtn').addEventListener('click', function(){
 //     });
 // }
 
+// let seats = document.getElementsByClassName('Btn');
+// for (let seat of seats) {
+//     seat.addEventListener('click', function (event) {
+//         let btn = event.target.innerText;
+//         let SeatBtn = document.getElementById('c4');
+//         SeatBtn.innerText = btn;
+
+//         // Toggle background color
+//         if (event.target.style.backgroundColor === 'green') {
+//             event.target.style.backgroundColor = '';
+//             event.target.style.color = '';
+//             SeatBtn.innerText = ''; // Optional: Clear c4 if same button is deselected
+//         } 
+//         else {
+//             // Reset all buttons
+//             for (let s of seats) {
+//                 s.style.backgroundColor = '';
+//                 s.style.color = '';
+//             }
+//             // Set selected color
+//             event.target.style.backgroundColor = 'green';
+//             event.target.style.color = 'white';
+//         }
+//     });
+// }
+
