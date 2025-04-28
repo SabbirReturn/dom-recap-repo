@@ -27,6 +27,11 @@ inputField.addEventListener('keyup', function(event){
     }
 })
 
+// document.getElementById('deleteBtn').addEventListener('click',function(){
+//     let secretInfo = document.getElementById('secret-info');
+//     secretInfo.style.display = 'none'
+//     inputField.value = '';
+// })
 document.getElementById('deleteBtn').addEventListener('click',function(){
     let secretInfo = document.getElementById('secret-info');
     secretInfo.style.display = 'none'
