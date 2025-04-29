@@ -11,6 +11,12 @@ let placeChange = placeTitle.innerText
 
 
 // query selector
+// let places = document.querySelectorAll('.place li');
+// for( let place of places){
+//     let name = place.innerText;
+//     // console.log(name);
+
+// }
 let places = document.querySelectorAll('.place li');
 for( let place of places){
     let name = place.innerText;
