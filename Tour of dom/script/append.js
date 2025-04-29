@@ -11,6 +11,12 @@ li1.innerText = 'Biriany'
 
 let li3 = document.createElement('li');
 li3.innerText = 'KalaVuna'
+// let ul = document.createElement('ul');
+// let li1 = document.createElement('li');
+// li1.innerText = 'Biriany'
+
+// let li3 = document.createElement('li');
+// li3.innerText = 'KalaVuna'
 
 
 
