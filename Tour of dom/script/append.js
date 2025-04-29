@@ -14,6 +14,12 @@ li3.innerText = 'KalaVuna'
 
 
 
+// section.appendChild(h1);
+// section.appendChild(ul);
+// ul.appendChild(li1);
+// ul.appendChild(li3);
+// mainContainer.appendChild(section);
+
 section.appendChild(h1);
 section.appendChild(ul);
 ul.appendChild(li1);
