@@ -24,4 +24,8 @@ let sum2 = add2(10,22);
 // arrow function
 let add3 = (num1, num2) => num1 + num2;
 let sum3 = add3(10,32);
-console.log(sum3);
+// console.log(sum3);
+
+let add4 = (num1,num2,num3,num4) => num1 + num2 + num3 + num4;
+let sum4 = add4(10,20,30,40);
+console.log(sum4);
