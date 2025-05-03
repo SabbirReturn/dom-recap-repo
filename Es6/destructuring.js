@@ -27,4 +27,11 @@ function doubleThem(x,y){
 let double = (x,y) => [x*2, y*3];
 
 let [first, second] = double(3,4);
-console.log(first);
+// console.log(first);
+
+
+// let getInnerText = (elementById, value) =>{
+//     let element = document.getElementById(elementById);
+//     element.innerText = value;
+// }
+
