@@ -12,5 +12,5 @@ console.log(value);
 delete glass.color;
 console.log(glass)
 
-glass.iclean = 'clean'
+glass.isClean = 'clean'
 console.log(glass);
