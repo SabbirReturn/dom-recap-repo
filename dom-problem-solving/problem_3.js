@@ -4,8 +4,9 @@
 // Return the average of the sum of the squared element,
 
 
-let numbers = [2,3,4,5];
-let result = (numbers)=>{
+
+let result = ()=>{
+    let numbers = [2,3,4,5];
     let sum=0;
     for( let number of numbers){
         let square = Math.pow(number,2);
@@ -14,5 +15,5 @@ let result = (numbers)=>{
     }
     return sum/numbers.length
 }
-let total = result(numbers);
+let total = result();
 console.log(`The average of the sum is ${total}`);
