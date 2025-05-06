@@ -8,6 +8,9 @@ I love to eat biryani`;
 // console.log(line);
 
 
+// let arrow = (x,y=2) => x+y;
+// let sum = arrow(10);
+// console.log(sum);
 let arrow = (x,y=2) => x+y;
 let sum = arrow(10);
 console.log(sum);
