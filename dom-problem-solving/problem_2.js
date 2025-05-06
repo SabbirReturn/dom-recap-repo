@@ -63,4 +63,5 @@ let eventName = (names) =>{
 }
 
 let friend = eventName(['sabbir','hasan','misu'])
+// console.log(friend);
 console.log(friend);
