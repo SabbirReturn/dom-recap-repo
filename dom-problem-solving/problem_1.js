@@ -5,7 +5,7 @@ let multiply = numbers(2,3,4);
 let line = `I am a web developer.
 I love to code.
 I love to eat biryani`;
-// console.log(line);
+console.log(line);
 
 
 // let arrow = (x,y=2) => x+y;
