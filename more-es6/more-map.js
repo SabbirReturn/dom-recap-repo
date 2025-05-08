@@ -1,6 +1,6 @@
-let numbers = [12,14,15,17];
+// let numbers = [12,14,15,17];
 
-let fiveBonus = numbers.map(x=>x+5);
+// let fiveBonus = numbers.map(x=>x+5);
 // console.log(fiveBonus);
 
 
@@ -26,4 +26,10 @@ let friends = ['tom','sabbir','hasan'];
 
 let firstLetter = friends.map(fir=>fir[0]);
 
-console.log(firstLetter);
+// console.log(firstLetter);
+
+
+let numbers = [45,5,6,7,8];
+
+let double = numbers.map(x=>x*2)
+console.log(double)
