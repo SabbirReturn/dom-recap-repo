@@ -25,6 +25,7 @@ let user1 = {
     city:'Dhaka'
 }
 // console.log(user1.address.street.second);
+console.log(user1.address.street.third)
 
 let user2 = {
     id:5002,
@@ -34,5 +35,5 @@ let user2 = {
         country:'Bangladesh'
     }
 }
-console.log(user1.address.street.second);
-console.log(user2.address.street?.second);
+// console.log(user1.address.street.second);
+// console.log(user2.address.street?.second);
