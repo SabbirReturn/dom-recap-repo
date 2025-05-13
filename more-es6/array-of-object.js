@@ -23,3 +23,5 @@ let importPrice = price.map(product=>product.price);
 
 let total  = products.reduce((previousPrice,currentPrice)=> previousPrice+currentPrice.price ,0);
 console.log(total);
+let multiply = products.reduce((p,c)=>p+c.price,0);
+console.log(multiply)
