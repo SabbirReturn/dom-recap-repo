@@ -34,4 +34,18 @@ class details{
 let person1 = new details('Sabbir',26,'Uttara');
 let person2 = new details('Hasan',32,'Dhanmondi');
 // console.log(person1)
-console.log(person1)
+// console.log(person1)
+
+class person{
+    constructor(name,address){
+        this.name = name;
+        this.address = address;
+    }
+    sleep(){
+        console.log(`Sleeping now ${this.name}`)
+    }
+}
+
+let kodom = new person('Kodom','Uttara');
+console.log(kodom);
+kodom.sleep()
