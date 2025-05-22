@@ -41,6 +41,15 @@
 // }
 // let outPut = greeting(greetingEvening,'Sabbir');
 // console.log(outPut)
+// function greeting(greetingHandler,name){
+//    return greetingHandler(name)
+// }
+// function greetingEvening(name){
+//     // console.log('Good Evening:', name)
+//     return `Good Evening: ${name}`
+// }
+// let outPut = greeting(greetingEvening,'Sabbir');
+// console.log(outPut)
 function greeting(greetingHandler,name){
    return greetingHandler(name)
 }
